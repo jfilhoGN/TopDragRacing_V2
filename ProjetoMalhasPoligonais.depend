@@ -86,7 +86,7 @@
 	<stdlib.h>
 	<GL/freeglut.h>
 
-1512317124 source:/home/jfilhogn/Documentos/8Semestre/ComputacaoGrafica/TopDragRacingOpengl/05-03-MalhaOBJ.cpp
+1512424310 source:/home/jfilhogn/Documentos/8Semestre/ComputacaoGrafica/TopDragRacingOpengl/05-03-MalhaOBJ.cpp
 	"bibutil.h"
 	<stdio.h>
 	<stdlib.h>
@@ -94,6 +94,7 @@
 	"ferrrari2.c"
 	"amarelo.c"
 	"asfalto.c"
+	<iostream>
 
 1511998621 /home/jfilhogn/Documentos/8Semestre/ComputacaoGrafica/TopDragRacingOpengl/bibutil.h
 	<stdio.h>

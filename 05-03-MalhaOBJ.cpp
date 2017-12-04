@@ -5,6 +5,7 @@
 #include "ferrrari2.c"
 #include "amarelo.c"
 #include "asfalto.c"
+#include<iostream>
 
 //#define DEBUG 1
 // Variáveis para controles de navegação
@@ -593,7 +594,7 @@ void Inicializa (void)
 // Programa Principal
 int main(int argc, char *argv[])
 {
-    //system("mpg123 topgear.mp3 &");
+    system("mpg123 topgear.mp3 &");
     glutInit(&argc, argv);
 	// Define do modo de operação da GLUT
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
@@ -631,7 +632,7 @@ int main(int argc, char *argv[])
 	// Inicia o processamento e aguarda interações do usuário
 	glutMainLoop();
 
-	//system("killall mpg123");
+	system("killall mpg123");
 
 	return 0;
 }
